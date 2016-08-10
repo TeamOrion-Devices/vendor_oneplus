@@ -384,7 +384,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/oneplus/oneplus3/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/oneplus/oneplus3/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
-    vendor/oneplus/oneplus3/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -524,7 +523,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/oneplus/oneplus3/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
@@ -660,7 +658,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
-    libthermalclient \
     libtime_genoff \
     datastatusnotification \
     embms \
